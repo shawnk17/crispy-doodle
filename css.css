@@ -1,6 +1,8 @@
 body {
-    background-color: lavenderblush;
+    background-color: rgb(64, 209, 231), 243);
     padding: 0 2rem;
 }
 
-.form-element 
+.form-element {
+    margin-bottom: 1rem;
+}

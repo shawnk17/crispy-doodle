@@ -23,11 +23,11 @@ this.greetFormally = function greetFormally(){
     }
 
     return greetString;
-} 
+    } 
 }
 
 var renderCustomers = function renderCustomers(){
-displayDiv.innerHTML = "";
+displayDiv.innerHTML = " ";
 
 for(var i = 0; i < customerList.length; i++){
     var curCustomer = customerList[i];
@@ -36,13 +36,13 @@ for(var i = 0; i < customerList.length; i++){
 };
 
 var clearInputs = function clearInputs(){
-firstName.value = "";
-lastName.value = "";
-salutation.value = "";
+firstName.value = " ";
+lastName.value = " ";
+salutation.value = " ";
 };
 
 addButton.addEventListener("click", function(){
-if(firstName.value == "" || lastName.value == "")
+if(firstName.value == " " || lastName.value == " ")
 {
     alert("Hey! You didn't enter a first name or last name!");
     return;

@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
 body {
-    background-color: rgb(29, 116, 126), 243);
+    background-color:rgb(61, 216, 221);
     padding: 0 2rem;
 }
 
 .form-element {
     margin-bottom: 1rem;
+}
+
+h1 {
+    color: rgb(196, 29, 29);
+    text-align: center;
+}
+
+p,div {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    padding: 12px 12px 12px 12px;  
+    margin: 12px 12px 12px 12px;  
 }

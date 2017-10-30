@@ -2,6 +2,7 @@
 
 body {
     background-color:rgb(61, 216, 221);
+    font-family: 'Caveat', cursive;
     padding: 0 2rem;
 }
 
@@ -10,12 +11,12 @@ body {
 }
 
 h1 {
-    color: rgb(196, 29, 29);
+    color: rgb(26, 24, 24);
     text-align: center;
 }
 
 p,div {
-    font-family: 'Caveat', cursive;
+   
     font-size: 30px;
     padding: 12px 12px 12px 12px;  
     margin: 12px 12px 12px 12px;  
